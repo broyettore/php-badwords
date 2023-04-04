@@ -9,5 +9,18 @@
 </head>
 <body>
 
+<fieldset>
+    <form action="server.php" method="POST">
+        <div class="msg-ctn">
+            <label for="msg">Subject :</label>
+            <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        </div>
+        <div class="word-ctn">
+            <label for="badword">Word/s to  censor :</label>
+            <input type="text" name="badword" id="badword">
+        </div>
+        <button type="submit" class="send">Send</button>
+    </form>
+</fieldset>
 </body>
 </html>
